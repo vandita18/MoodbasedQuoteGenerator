@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="quote.css" />
+  </head>
+  <body>
+    <div class="container" id="quote-container">
+      <h1>Random Quote Generator</h1>
+
+      <div class="mood-selector">
+        <label for="mood">How is your Mood today:</label>
+        <select id="mood">
+          <option value="inspirational">Inspirational 🌟</option>
+          <option value="funny">Funny 😂</option>
+          <option value="life">Life 🌿</option>
+          <option value="love">Love ❤️</option>
+          <option value="technology">Technology 💻</option>
+          <option value="happy">Happy 😄</option>
+          <option value="sad">Sad 😢</option>
+        </select>
+      </div>
+
+      <div class="quote-box" id="quotebox">
+        <p id="quote"></p>
+        <span id="author"></span>
+      </div>
+
+      <div class="buttons">
+        <button id="new-quote">Get Quote</button>
+        <button id="read-quote">Read Quote</button>
+      </div>
+    </div>
+    <script src="quote.js"></script>
+  </body>
+</html>
