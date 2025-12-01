@@ -1,7 +1,7 @@
-Title: Random Quote Generator is a simple yet engaging web application that displays quotes based on the user’s selected mood.
+Title: Mood-based Quote Generator is a simple yet engaging web application that displays quotes based on the user’s selected mood.
 It enhances user experience through dynamic UI changes and voice-based quote reading.
 Features
--Displays a random quote on the screen
+-Displays a mood-based quote on the screen
 -Allows users to filter quotes by mood:
 -Inspirational, Funny, Life, Love, Technology, Happy, Sad
 -Reads the displayed quote aloud using the Speech Synthesis API
